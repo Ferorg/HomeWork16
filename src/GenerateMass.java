@@ -17,6 +17,8 @@ public class GenerateMass extends Thread{
                 temp=random[i];
             }
         }
+
+
         System.out.println(getName()+" максимальное значение: "+temp);
     }
 }

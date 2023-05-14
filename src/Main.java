@@ -28,6 +28,7 @@ public class Main {
         gm8.start();
         gm9.start();
         gm10.start();
+
     }
 
     public static void goCar(Car car1, Car car2, Thread car3Thread) {
