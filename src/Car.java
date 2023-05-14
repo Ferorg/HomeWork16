@@ -1,9 +1,9 @@
 public class Car extends Thread {
     private int stopTime;
 
-    public Car(int  stopTime,String name){
+    public Car(int stopTime, String name) {
         super(name);
-        this.stopTime=stopTime;
+        this.stopTime = stopTime;
     }
 
     public void run() {

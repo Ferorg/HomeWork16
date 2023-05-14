@@ -1,11 +1,11 @@
 
 public class Main {
     public static void main(String[] args) {
-//        Car car1 = new Car(1500, "BMV");
-//        Car car2 = new Car(2500, "Ferrari");
-//        CarExtendetRunable car3 = new CarExtendetRunable(5000);
-//        Thread car3Thread = new Thread(car3, "Golf");
-//        goCar(car1, car2, car3Thread);
+        Car car1 = new Car(1500, "BMV");
+        Car car2 = new Car(2500, "Ferrari");
+        CarExtendetRunable car3 = new CarExtendetRunable(5000);
+        Thread car3Thread = new Thread(car3, "Golf");
+        goCar(car1, car2, car3Thread);
 
         //___________________________________________________-
         GenerateMass gm1 = new GenerateMass("1 поток");
