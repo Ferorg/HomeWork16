@@ -6,7 +6,6 @@ public class CarExtendetRunable implements Runnable {
     public CarExtendetRunable(int stopTime) {
         this.stopTime = stopTime;
     }
-
     public void run() {
         try {
 

@@ -4,7 +4,6 @@ public class GenerateMass extends Thread{
     public GenerateMass(String name) {
         super(name);
     }
-
     @Override
     public void run() {
         try {
